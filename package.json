@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "macheten",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "watch": "yarn tsc -w",
+    "dev": "yarn nodemon --inspect ./dist/server.js",
+    "build": "yarn tsc",
+    "start": "node dist/index.js"
+  }
+}
