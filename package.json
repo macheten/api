@@ -18,6 +18,6 @@
     "watch": "yarn tsc -w",
     "dev": "yarn nodemon --inspect ./dist/server.js",
     "build": "yarn",
-    "start": "node server.js"
+    "start": "node dist/server.js"
   }
 }
