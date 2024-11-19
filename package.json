@@ -17,7 +17,7 @@
   "scripts": {
     "watch": "yarn tsc -w",
     "dev": "yarn nodemon --inspect ./dist/server.js",
-    "build": "yarn tsc",
-    "start": "node dist/index.js"
+    "build": "yarn",
+    "start": "node server.js"
   }
 }
